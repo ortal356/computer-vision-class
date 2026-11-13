@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Count paperclips (x64 Debug)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/PaperclipCounter.exe",
+            "cwd": "${workspaceFolder}",
+            "args": [],
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+            "preLaunchTask": "OpenCV: build PaperclipCounter"
+        }
+    ]
+}
