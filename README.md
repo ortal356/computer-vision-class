@@ -6,6 +6,7 @@
 | --- | --- | --- |
 | [CoinCounter](CoinCounter) | 二值化 + 形态学 + 轮廓检测，统计硬币数量 | 10 枚硬币 |
 | [PaperclipCounter](PaperclipCounter) | Otsu 反向二值化 + 闭运算 + 轮廓检测，统计回形针数量 | 13 个回形针 |
+| [HoleCounter](HoleCounter) | 高斯滤波 + Canny + 霍夫圆变换，识别圆形孔 | 4 个孔 |
 
 ## 运行方式
 
